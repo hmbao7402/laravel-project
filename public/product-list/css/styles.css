@@ -1,7 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;800;900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     background-color: #ebebeb;
 }
 
@@ -12,7 +18,7 @@ body {
     width: 100%;
     height: auto;
     z-index: 10;
-    transition: all .3s;
+    transition: all 0.3s;
 }
 
 .top-bar {
@@ -23,7 +29,7 @@ body {
     font-size: 13px;
     line-height: 16px;
     text-align: center;
-    letter-spacing: .03rem;
+    letter-spacing: 0.03rem;
     padding-top: 7px;
     padding-bottom: 7px;
 }
@@ -32,11 +38,114 @@ body {
     background-color: transparent;
     text-decoration: none;
     color: #ebebeb;
-    transition: all .2s;
+    transition: all 0.2s;
 }
 
 .header {
     border-bottom: 1px solid #d9d9d9;
-    transition: all .2s;
+    transition: all 0.2s;
     position: relative;
+    height: 50px;
+}
+
+.header__actions {
+    display: flex;
+    align-items: center;
+}
+
+.header__actions > :not(:first-child) {
+    margin-left: 20px;
+}
+
+.header-actions__button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+
+.header-actions__button .counts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    position: absolute;
+    right: -5px;
+    top: 0;
+    width: 13px;
+    height: 13px;
+    background-color: #2f5acf;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    pointer-events: none;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header__toggle {
+    display: none;
+}
+
+.header__logo {
+    height: 36px;
+    z-index: 2;
+}
+
+.header__logo img {
+    width: auto;
+    height: 100%;
+}
+
+.header__menu {
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0 30px;
+    height: 50px;
+}
+
+.nav__item > a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    padding: 0;
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #101010;
+    transition: all 0.2s;
+}
+
+@media (min-width: 1440px) {
+    .header__inner {
+        padding-left: 64px;
+        padding-right: 64px;
+    }
 }
