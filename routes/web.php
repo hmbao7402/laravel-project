@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProductList\ProductListController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -35,9 +36,11 @@ Route::prefix('/admin')->namespace('App\Http\Controllers\Admin')->group(function
         Route::match(['get', 'post'], 'update-admin-password', 'AdminController@updateAdminPassword');
 
         // Check admin password
-        Route::post('check-admin-password','AdminController@checkAdminPassword');
+        Route::post('check-admin-password', 'AdminController@checkAdminPassword');
 
         // Admin Logout
         Route::get('logout', 'AdminController@logout');
     });
 });
+
+Route::get('/product_list',[ProductListController::class, 'viewProductList']);
