@@ -19,7 +19,7 @@
                 {{-- <div class="header__toggle"></div> --}}
                 <div class="header__logo">
                     <a href="#">
-                        <img src="https://www.coolmate.me/images/logo-coolmate.svg" alt="Logo">
+                        <img src="{{url('header/images/clickUs_logo.png')}}" alt="Logo">
                     </a>
                 </div>
                 <div class="header__menu">
@@ -27,7 +27,7 @@
                     <div class="mobile--hidden tablet--hidden">
                         <ul class="nav">
                             <li class="nav__item">
-                                <a href="#">Kiến thức mặc đẹp</a>
+                                <a href="#">Phong cách Gen Z</a>
                             </li>
                             <li class="nav__item has-child">
                                 <a href="#">Sản phẩm</a>
