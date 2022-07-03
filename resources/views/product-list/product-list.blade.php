@@ -1,1 +1,1 @@
-@extends('header.header');
+@extends('product-list.layout');
