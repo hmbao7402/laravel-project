@@ -127,6 +127,10 @@ body {
     height: 50px;
 }
 
+.nav__item:hover {
+    text-decoration: underline;
+}
+
 .nav__item > a {
     font-weight: 600;
     font-size: 14px;

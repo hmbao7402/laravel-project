@@ -20,12 +20,6 @@
                         <li class="nav__item has-child">
                             <a href="#">Sản phẩm</a>
                         </li>
-                        <li class="nav__item has-child">
-                            <a href="#">Nam</a>
-                        </li>
-                        <li class="nav__item has-child">
-                            <a href="#">Nữ</a>
-                        </li>
                         <li class="nav__item">
                             <a href="#">Về ClickUs</a>
                         </li>

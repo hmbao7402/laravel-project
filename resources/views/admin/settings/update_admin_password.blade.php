@@ -7,25 +7,8 @@
             <div class="col-md-12 grid-margin">
                 <div class="row">
                     <div class="col-12 col-xl-8 mb-4 mb-xl-0">
-                        <h3 class="font-weight-bold">Settings</h3>
+                        <h3 class="font-weight-bold">Cài đặt Admin</h3>
                         {{-- <h6 class="font-weight-normal mb-0">Update Admin Password</h6> --}}
-                    </div>
-                    <div class="col-12 col-xl-4">
-                        <div class="justify-content-end d-flex">
-                            <div class="dropdown flex-md-grow-1 flex-xl-grow-0">
-                                <button class="btn btn-sm btn-light bg-white dropdown-toggle" type="button"
-                                    id="dropdownMenuDate2" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="true">
-                                    <i class="mdi mdi-calendar"></i> Today (10 Jan 2021)
-                                </button>
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuDate2">
-                                    <a class="dropdown-item" href="#">January - March</a>
-                                    <a class="dropdown-item" href="#">March - June</a>
-                                    <a class="dropdown-item" href="#">June - August</a>
-                                    <a class="dropdown-item" href="#">August - November</a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -34,7 +17,7 @@
             <div class="col-md-6 grid-margin stretch-card">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Update Admin Password</h4>
+                        <h4 class="card-title">Thay đổi mật khẩu Admin</h4>
                         {{-- ERROR MESSAGE --}}
                         @if(Session::has('error_message'))
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
@@ -64,25 +47,25 @@
                             </div>
                             {{-- Admin Type --}}
                             <div class="form-group">
-                                <label>Type</label>
-                                <input class="form-control" value="{{ $adminDetails['isSuperAdmin'] == 1 ? 'Super Admin' : 'Member Admin' }}" readonly>
+                                <label>Vai trò</label>
+                                <input class="form-control" value="{{ $adminDetails['isSuperAdmin'] == 1 ? 'Admin Cao Cấp' : 'Admin Thành Viên' }}" readonly>
                             </div>
                             {{-- Current Password --}}
                             <div class="form-group">
-                                <label for="current_password">Current Password</label>
+                                <label for="current_password">Mật khẩu hiện tại</label>
                                 <input id="current_password" name="current_password" type="password"
                                     class="form-control" placeholder="Current Password" required>
                                 <span id="check_password"></span>
                             </div>
                             {{-- New Password --}}
                             <div class="form-group">
-                                <label for="new_password">New Password</label>
+                                <label for="new_password">Mật khẩu mới</label>
                                 <input type="password" class="form-control" id="new_password" name="new_password"
                                     placeholder="Enter New Password" required>
                             </div>
                             {{-- Confirm New Password --}}
                             <div class="form-group">
-                                <label for="confirm_password">New Password</label>
+                                <label for="confirm_password">Xác nhận mật khẩu</label>
                                 <input type="password" class="form-control" id="confirm_password" name="confirm_password"
                                     placeholder="Confirm Password" required>
                             </div>
@@ -92,8 +75,8 @@
                                     Remember me
                                 </label>
                             </div> --}}
-                            <button type="submit" class="btn btn-primary mr-2">Submit</button>
-                            <button class="btn btn-light">Cancel</button>
+                            <button type="submit" class="btn btn-primary mr-2">Đổi mật khẩu</button>
+                            <button class="btn btn-light">Hủy bỏ</button>
                         </form>
                     </div>
                 </div>
