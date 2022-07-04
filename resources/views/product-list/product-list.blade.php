@@ -18,6 +18,7 @@
 <body>
     @include('header.header')
     <!-- Newest Product -->
+    <h1>test pull </h1>
     <section id="newest" class="product-listings">
         <div class="container text-center mt-3 py-5">
             <h3>Sản phẩm mới nhất</h3>
