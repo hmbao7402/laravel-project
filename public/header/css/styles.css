@@ -12,12 +12,12 @@ body {
 }
 
 .site-header {
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     width: 100%;
-    height: auto;
-    z-index: 10;
+    height: 50px;
+    z-index: 1000;
     transition: all 0.3s;
 }
 
