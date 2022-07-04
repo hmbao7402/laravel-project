@@ -1,52 +1,33 @@
-<header class="site-header">
-    <div class="top-bar">
-        <a href="#">Chào mừng bạn đến với ClickUs</a>
-    </div>
-    <div class="header">
-        <div class="header__inner">
-            {{-- <div class="header__toggle"></div> --}}
-            <div class="header__logo">
-                <a href="#">
-                    <img src="{{url('header/images/clickUs_logo.png')}}" alt="Logo">
-                </a>
-            </div>
-            <div class="header__menu">
-                <div class="mobile--visible tablet--visible" style="display: none;"></div>
-                <div class="mobile--hidden tablet--hidden">
-                    <ul class="nav">
-                        <li class="nav__item">
-                            <a href="#">Phong cách Gen Z</a>
-                        </li>
-                        <li class="nav__item has-child">
-                            <a href="#">Sản phẩm</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#">Về ClickUs</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#">Liên hệ</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="header__actions">
-                <div class="header-actions__button mobile--hidden">
-                    <a href="#" class="header-search">
-                        <img src="https://www.coolmate.me/images/header/icon-search.svg" alt="Icon Search">
-                    </a>
-                </div>
-                <div class="header-actions__button">
-                    <a href="#">
-                        <img src="https://www.coolmate.me/images/header/icon-account.svg" alt="Icon Account">
-                    </a>
-                </div>
-                <div class="header-actions__button">
-                    <a href="#">
-                        <img src="https://www.coolmate.me/images/header/icon-cart.svg" alt="Icon Cart">
-                    </a>
-                    <span class="counts">0</span>
-                </div>
-            </div>
+<!-- NAVIGATION -->
+<nav class="navbar navbar-light navbar-expand-lg bg-light py-3">
+    <div class="container-fluid">
+        <img src="{{url('header/images/clickUs_logo.png')}}" alt="Logo" id="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Phong cách Gen Z</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sản phẩm</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Về Click Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Liên hệ</a>
+                </li>
+                <li class="nav-item">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </li>
+            </ul>
         </div>
     </div>
-</header>
+</nav>

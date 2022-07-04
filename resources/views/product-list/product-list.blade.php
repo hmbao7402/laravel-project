@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Click Us - Giải pháp mua sắm thời trang tiện lợi</title>
     <script src="https://kit.fontawesome.com/4b2db38072.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="{{url('header/css/styles.css')}}">
     <link rel="stylesheet" href="{{url('footer/css/styles.css')}}">
     <link rel="stylesheet" href="{{url('product-list/css/styles.css')}}">
@@ -14,63 +16,7 @@
 
 <body>
     @include('header.header')
-    <section class="collections-listings">
-        <div class="container container--full">
-            <div id="" class="flex justify--between">
-                <h2 class="collections-listings__heading">Áo thun</h2>
-                <a href="" style="margin-top: 10px">Xem tất cả</a>
-            </div>
-            <div id="productList" class="grid grid--five-columns">
-                <div class="grid__column" style="position: relative">
-                    <div class="collection-thumbnail">
-                        <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/June2022/Ao_thun_08.jpg"
-                            alt="Ao thun">
-                    </div>
-                </div>
-            </div>
-
-            <div id="" class="flex justify--between">
-                <h2 class="collections-listings__heading">Áo thun</h2>
-                <a href="" style="margin-top: 10px">Xem tất cả</a>
-            </div>
-            <div id="" class="flex justify--between">
-                <h2 class="collections-listings__heading">Áo thun</h2>
-                <a href="" style="margin-top: 10px">Xem tất cả</a>
-            </div>
-            <div id="" class="flex justify--between">
-                <h2 class="collections-listings__heading">Áo thun</h2>
-                <a href="" style="margin-top: 10px">Xem tất cả</a>
-            </div>
-            <div id="" class="flex justify--between">
-                <h2 class="collections-listings__heading">Áo thun</h2>
-                <a href="" style="margin-top: 10px">Xem tất cả</a>
-            </div>
-            <div id="" class="flex justify--between">
-                <h2 class="collections-listings__heading">Áo thun</h2>
-                <a href="" style="margin-top: 10px">Xem tất cả</a>
-            </div>
-            <div id="" class="flex justify--between">
-                <h2 class="collections-listings__heading">Áo thun</h2>
-                <a href="" style="margin-top: 10px">Xem tất cả</a>
-            </div>
-            <div id="" class="flex justify--between">
-                <h2 class="collections-listings__heading">Áo thun</h2>
-                <a href="" style="margin-top: 10px">Xem tất cả</a>
-            </div>
-            <div id="" class="flex justify--between">
-                <h2 class="collections-listings__heading">Áo thun</h2>
-                <a href="" style="margin-top: 10px">Xem tất cả</a>
-            </div>
-            <div id="" class="flex justify--between">
-                <h2 class="collections-listings__heading">Áo thun</h2>
-                <a href="" style="margin-top: 10px">Xem tất cả</a>
-            </div>
-            <div id="" class="flex justify--between">
-                <h2 class="collections-listings__heading">Áo thun</h2>
-                <a href="" style="margin-top: 10px">Xem tất cả</a>
-            </div>
-        </div>
-    </section>
+    
     @include('footer.footer')
 </body>
 

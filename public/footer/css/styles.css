@@ -1,106 +1,33 @@
-footer {
-    /* position: fixed; */
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #101010;
-    width: 100%;
-    height: auto;
-    padding-top: 40px;
-}
-
-.footer-content {
+.copyright .row {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-.footer-content h3 {
-    font-size: 2.1rem;
-    font-weight: 500;
-    text-transform: capitalize;
-    color: #ebebeb;
-    line-height: 3rem;
-}
-.footer-content p {
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-    color: #ebebeb;
-}
-.socials {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
-}
-.socials li {
-    margin: 0 10px;
-}
-.socials a {
-    text-decoration: none;
-    color: #ebebeb;
-    border: 1.1px solid #ebebeb;
-    padding: 5px;
-
-    border-radius: 50%;
-}
-.socials a i {
-    font-size: 1.1rem;
-    width: 20px;
-
-    transition: color 0.4s ease;
-}
-.socials a:hover i {
-    color: rgb(255, 49, 2);
+    justify-content: space-between;
 }
 
-.footer-bottom {
-    background: #101010;
-    width: 100%;
-    padding: 20px;
-    padding-bottom: 40px;
-    text-align: center;
-}
-.footer-bottom p {
-    float: left;
-    font-size: 14px;
-    color: #ebebeb;
-    text-transform: capitalize;
+.copyright .row .socials a {
+    font-size: 1.2rem;
+    padding: 0 7px;
+    cursor: pointer;
+	transition: 0.3s ease;
+    color: black;
 }
 
-.footer-bottom span {
-    font-size: 14px;
-    color: #ebebeb;
-    text-transform: capitalize;
+.copyright .row .socials a:hover {
+    color: red;
+}
+
+.copyright .row .socials a:not(:first-child) {
+    margin-left: 20px;
+}
+
+.footer-one a {
+    color: black;
+}
+
+.footer-one a:hover {
+    color: black;
     text-decoration: underline;
 }
 
-.footer-menu {
-    float: right;
-}
-.footer-menu ul {
-    display: flex;
-}
-.footer-menu ul li {
-    padding-right: 10px;
-    display: block;
-}
-.footer-menu ul li a {
-    color: #ebebeb;
-    text-decoration: none;
-}
-.footer-menu ul li a:hover {
-    text-decoration: underline;
-}
-
-@media (max-width: 500px) {
-    .footer-menu ul {
-        display: flex;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
+.footer-one h6 {
+    font-weight: bold;
 }
