@@ -7,29 +7,29 @@
             <p>Đội ngũ ClickUs sẽ luôn cố gắng để
                 tạo ra những sản phẩm và dịch vụ mới để nâng cao trải nghiệm khách hàng</p>
         </div>
-        <div class="footer-one col-lg-3 col-md-6 col-12"">
-                <h5>Sản phẩm</h5>
-                <ul class=" text-capitalize list-unstyled">
-            <li><a href="#">Nam</a></li>
-            <li><a href="#">Nữ</a></li>
-            <li><a href="#">Áo thun</a></li>
-            <li><a href="#">Áo sơ mi</a></li>
-            <li><a href="#">Quần short</a></li>
-            <li><a href="#">Quần dài</a></li>
+        <div class="footer-one col-lg-3 col-md-6 col-12">
+            <h5>Sản phẩm</h5>
+            <ul class=" text-capitalize list-unstyled">
+                <li><a href="#">Nam</a></li>
+                <li><a href="#">Nữ</a></li>
+                <li><a href="#">Áo thun</a></li>
+                <li><a href="#">Áo sơ mi</a></li>
+                <li><a href="#">Quần short</a></li>
+                <li><a href="#">Quần dài</a></li>
             </ul>
         </div>
         <div class="footer-one col-lg-3 col-md-6 col-12">
             <h5>Liên hệ</h5>
             <div>
-                <h6 class="text-uppercase">Địa chỉ</h6>
+                <h6 class="text-capitalize">Địa chỉ</h6>
                 <p>590 CMT8, P14, Q3</p>
             </div>
             <div>
-                <h6 class="text-uppercase">Điện thoại</h6>
+                <h6 class="text-capitalize">Điện thoại</h6>
                 <p>093 2611 774</p>
             </div>
             <div>
-                <h6 class="text-uppercase">e-mail</h6>
+                <h6 class="text-capitalize">e-mail</h6>
                 <p>clickus@gmail.com</p>
             </div>
         </div>

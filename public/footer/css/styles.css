@@ -19,8 +19,17 @@
     margin-left: 20px;
 }
 
+.footer-one li {
+    margin-top: 5px;
+}
+
 .footer-one a {
     color: black;
+}
+
+.footer-one h5 {
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .footer-one a:hover {
