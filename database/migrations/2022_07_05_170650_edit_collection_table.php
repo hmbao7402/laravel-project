@@ -13,13 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('product_images', function (Blueprint $table) {
-            $table->id('imageID');
-            $table->string('img');
-            $table->foreignId('productID')->references('productID')->on('product');
-            $table->timestamps();
+        Schema::table('collection', function (Blueprint $table) {
         });
-    } 
+        
+        Schema::rename('collection', 'collections');
+    }
 
     /**
      * Reverse the migrations.
@@ -28,6 +26,8 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('product_images');
+        Schema::table('collection', function (Blueprint $table) {
+            //
+        });
     }
 };

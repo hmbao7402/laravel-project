@@ -69,12 +69,6 @@
                                 <input type="password" class="form-control" id="confirm_password" name="confirm_password"
                                     placeholder="Confirm Password" required>
                             </div>
-                            {{-- <div class="form-check form-check-flat form-check-primary">
-                                <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input">
-                                    Remember me
-                                </label>
-                            </div> --}}
                             <button type="submit" class="btn btn-primary mr-2">Đổi mật khẩu</button>
                             <button class="btn btn-light">Hủy bỏ</button>
                         </form>
