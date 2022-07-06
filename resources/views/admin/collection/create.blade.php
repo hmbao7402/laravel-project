@@ -8,7 +8,7 @@
             <div class="col-md-12 grid-margin">
                 <div class="row">
                     <div class="col-12 col-xl-8 mb-4 mb-xl-0">
-                        <h3 class="font-weight-bold">Chỉnh Sửa Style</h3>
+                        <h3 class="font-weight-bold">Tạo Thêm Collection Mới</h3>
                     </div>
                 </div>
             </div>
@@ -17,7 +17,7 @@
             <div class="col-md-6 grid-margin stretch-card">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Chỉnh Sửa Style</h4>
+                        <h4 class="card-title">Tạo Thêm Collection Mới</h4>
                         {{-- ERROR MESSAGE --}}
                         @if(Session::has('error_message'))
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
@@ -46,26 +46,13 @@
                             @endforeach
                         </ul>
                         @endif
-                        <form class="forms-sample"
-                            action="{{url('admin/update-style', $style->styleID)}}" method="post">
-                            @csrf
-                            @method('PUT')
+                        <form class="forms-sample" action="{{url('admin/insert-collection')}}" method="get">@csrf
                             <div class="form-group">
-                                <label for="id">ID</label>
-                                <input type="text" class="form-control" name="id" value="{{$style->styleID}}"
-                                    readonly>
-                            </div>
-                            <div class="form-group">
-                                <label for="old_title">Tiêu đề cũ</label>
-                                <input type="text" class="form-control" placeholder="Trẻ Trung, Năng động, Cá tính,..."
-                                    name="old_title" value="{{$style->title}}" readonly>
-                            </div>
-                            <div class="form-group">
-                                <label for="title">Tiêu đề mới</label>
+                                <label for="title">Tiêu đề</label>
                                 <input type="text" name="title" class="form-control"
                                     placeholder="Click Cool, Click Summer,...">
                             </div>
-                            <button type="submit" class="btn btn-primary mr-2">Chỉnh Sửa</button>
+                            <button type="submit" class="btn btn-primary mr-2">Tạo</button>
                             <button class="btn btn-light" type="reset">Hủy bỏ</button>
                         </form>
                     </div>

@@ -8,7 +8,7 @@
             <div class="col-md-12 grid-margin">
                 <div class="row">
                     <div class="col-12 col-xl-8 mb-4 mb-xl-0">
-                        <h3 class="font-weight-bold">Chỉnh Sửa Style</h3>
+                        <h3 class="font-weight-bold">Chỉnh Sửa Collection</h3>
                     </div>
                 </div>
             </div>
@@ -17,7 +17,7 @@
             <div class="col-md-6 grid-margin stretch-card">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Chỉnh Sửa Style</h4>
+                        <h4 class="card-title">Chỉnh Sửa Collection</h4>
                         {{-- ERROR MESSAGE --}}
                         @if(Session::has('error_message'))
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
@@ -46,19 +46,18 @@
                             @endforeach
                         </ul>
                         @endif
-                        <form class="forms-sample"
-                            action="{{url('admin/update-style', $style->styleID)}}" method="post">
+                        <form class="forms-sample" action="{{url('admin/update-collection', $collection->collectionID)}}"
+                            method="post">
                             @csrf
                             @method('PUT')
                             <div class="form-group">
                                 <label for="id">ID</label>
-                                <input type="text" class="form-control" name="id" value="{{$style->styleID}}"
-                                    readonly>
+                                <input type="text" class="form-control" name="id" value="{{$collection->collectionID}}" readonly>
                             </div>
                             <div class="form-group">
                                 <label for="old_title">Tiêu đề cũ</label>
-                                <input type="text" class="form-control" placeholder="Trẻ Trung, Năng động, Cá tính,..."
-                                    name="old_title" value="{{$style->title}}" readonly>
+                                <input type="text" class="form-control"
+                                    placeholder="Click Cool, Click Summer,..." name="old_title" value="{{$collection->title}}" readonly>
                             </div>
                             <div class="form-group">
                                 <label for="title">Tiêu đề mới</label>

@@ -5,7 +5,7 @@
 <div class="col-md-7 grid-margin stretch-card">
     <div class="card">
         <div class="card-body">
-            <p class="card-title mb-0">Danh Sách Style</p>
+            <p class="card-title mb-0">Danh Sách Type</p>
             <div class="table-responsive">
                 {{-- SUCCESS MESSAGE --}}
                 @if(Session::has('success_message'))
@@ -27,16 +27,16 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach($styles as $key => $style)
+                        @foreach($types as $key => $type)
                         <tr>
                             <td>{{$key + 1}}</td>
-                            <td>{{$style->title}}</td>
-                            <td>{{$style->slug}}</td>
+                            <td>{{$type->title}}</td>
+                            <td>{{$type->slug}}</td>
                             <td style="display: flex;">
-                                <a href="{{url('admin/edit-style', $style->styleID)}}" style="margin-right: 5px;">
+                                <a href="{{url('admin/edit-type', $type->typeID)}}" style="margin-right: 5px;">
                                     <button class="btn btn-warning">Chỉnh Sửa</button>
                                 </a>
-                                <form action="{{url('admin/delete-style', $style->styleID)}}" method="post">
+                                <form action="{{url('admin/delete-type', $type->typeID)}}" method="post">
                                     @csrf
                                     @method('DELETE')
                                     <button class="btn btn-danger" type="submit">Xóa</button>
@@ -52,8 +52,8 @@
 </div>
 
 <div class="col-md-5 grid-margin stretch-card mt-5">
-    <a href="{{url('admin/create-style')}}">
-        <button class="btn btn-primary mr-2">Tạo Style Mới</button>
+    <a href="{{url('admin/create-type')}}">
+        <button class="btn btn-primary mr-2">Tạo Type Mới</button>
     </a>
 </div>
 

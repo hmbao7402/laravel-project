@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="{{url('admin/vendors/ti-icons/css/themify-icons.css')}}">
     <link rel="stylesheet" type="text/css" href="{{url('admin/js/select.dataTables.min.css')}}">
     <!-- End plugin css for this page -->
+    {{-- <script src="https://kit.fontawesome.com/4b2db38072.js" crossorigin="anonymous"></script> --}}
     <!-- inject:css -->
     <link rel="stylesheet" href="{{url('admin/css/vertical-layout-light/style.css')}}">
     <!-- endinject -->

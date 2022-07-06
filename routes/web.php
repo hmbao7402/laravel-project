@@ -41,6 +41,25 @@ Route::prefix('/admin')->namespace('App\Http\Controllers\Admin')->group(function
         Route::get('create-style', 'StyleController@createStyle');
         Route::get('insert-style', 'StyleController@insertStyle');
         Route::get('style', 'StyleController@index');
+        Route::get('edit-style/{id}', 'StyleController@editStyle');
+        Route::put('update-style/{id}', 'StyleController@updateStyle');
+        Route::delete('delete-style/{id}', 'StyleController@deleteStyle');
+
+        // Type Management
+        Route::get('create-type', 'TypeController@createType');
+        Route::get('insert-type', 'TypeController@insertType');
+        Route::get('type', 'TypeController@index');
+        Route::get('edit-type/{id}', 'TypeController@editType');
+        Route::put('update-type/{id}', 'TypeController@updateType');
+        Route::delete('delete-type/{id}', 'TypeController@deleteType');
+
+        // Collection
+        Route::get('create-collection', 'CollectionController@createCollection');
+        Route::get('insert-collection', 'CollectionController@insertCollection');
+        Route::get('collection', 'CollectionController@index');
+        Route::get('edit-collection/{id}', 'CollectionController@editCollection');
+        Route::put('update-collection/{id}', 'CollectionController@updateCollection');
+        Route::delete('delete-collection/{id}', 'CollectionController@deleteCollection');
     });
 });
 
