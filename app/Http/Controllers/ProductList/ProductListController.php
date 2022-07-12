@@ -10,4 +10,8 @@ class ProductListController extends Controller
     public function viewProductList() {
         return view('product-list.product-list');
     }
+
+    public function viewProductDetail() {
+        return view('product-details.product-details');
+    }
 }

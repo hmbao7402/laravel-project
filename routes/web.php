@@ -64,3 +64,4 @@ Route::prefix('/admin')->namespace('App\Http\Controllers\Admin')->group(function
 });
 
 Route::get('/product_list',[ProductListController::class, 'viewProductList']);
+Route::get('/product_details', [ProductListController::class, 'viewProductDetail']);
