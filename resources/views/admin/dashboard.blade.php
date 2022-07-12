@@ -1,7 +1,7 @@
-@extends('admin.layout.layout');
+@extends('admin.layout.layout')
 
 @section('content')
-<div class="main-panel">/
+<div class="main-panel">
     <div class="content-wrapper">
         <div class="row">
             <div class="col-md-12 grid-margin">
@@ -16,7 +16,7 @@
                                 <button class="btn btn-sm btn-light bg-white dropdown-toggle" type="button"
                                     id="dropdownMenuDate2" data-toggle="dropdown" aria-haspopup="true"
                                     aria-expanded="true">
-                                    <i class="mdi mdi-calendar"></i> Today (10 Jan 2021)
+                                    <i class="mdi mdi-calendar"></i>Today
                                 </button>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuDate2">
                                     <a class="dropdown-item" href="#">January - March</a>
@@ -41,8 +41,8 @@
                                     <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>31<sup>C</sup></h2>
                                 </div>
                                 <div class="ml-2">
-                                    <h4 class="location font-weight-normal">Bangalore</h4>
-                                    <h6 class="font-weight-normal">India</h6>
+                                    <h4 class="location font-weight-normal">Distric 3</h4>
+                                    <h6 class="font-weight-normal">Ho Chi Minh city</h6>
                                 </div>
                             </div>
                         </div>

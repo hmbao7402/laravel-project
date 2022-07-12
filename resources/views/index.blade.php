@@ -8,7 +8,8 @@
    <title>Click Us - Giải pháp mua sắm thời trang tiện lợi</title>
    <script src="https://kit.fontawesome.com/4b2db38072.js" crossorigin="anonymous"></script>
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+   
+   <!-- style -->
    <link rel="stylesheet" href="{{url('homePage\css/style.css')}}">
    <link rel="stylesheet" href="{{url('css/app.css')}}">
    <link rel="stylesheet" href="{{url('product-list/css/styles.css')}}">
@@ -341,142 +342,134 @@
          </div>
          <div class="row mx-auto container-fluid">
             <div class="product text-center col-lg-3 col-md-4 col-12">
-                <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg"
-                    alt="featured_1" class="img-fluid mb-3">
-                <div class="star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <h5 class="product-name">Sport Boots</h5>
-                <h4 class="product-price">159.000</h4>
-                <button class="view_detail-btn btn">Chi Tiết</button>
-                <button class="add_to_cart-btn btn">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </button>
+               <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg" alt="featured_1" class="img-fluid mb-3">
+               <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+               <h5 class="product-name">Sport Boots</h5>
+               <h4 class="product-price">159.000</h4>
+               <button class="view_detail-btn btn">Chi Tiết</button>
+               <button class="add_to_cart-btn btn">
+                  <i class="fa-solid fa-cart-shopping"></i>
+               </button>
             </div>
             <div class="product text-center col-lg-3 col-md-4 col-12">
-                <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg"
-                    alt="featured_1" class="img-fluid mb-3">
-                <div class="star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <h5 class="product-name">Sport Boots</h5>
-                <h4 class="product-price">159.000</h4>
-                <button class="view_detail-btn btn">Chi Tiết</button>
-                <button class="add_to_cart-btn btn">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </button>
+               <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg" alt="featured_1" class="img-fluid mb-3">
+               <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+               <h5 class="product-name">Sport Boots</h5>
+               <h4 class="product-price">159.000</h4>
+               <button class="view_detail-btn btn">Chi Tiết</button>
+               <button class="add_to_cart-btn btn">
+                  <i class="fa-solid fa-cart-shopping"></i>
+               </button>
             </div>
             <div class="product text-center col-lg-3 col-md-4 col-12">
-                <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg"
-                    alt="featured_1" class="img-fluid mb-3">
-                <div class="star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <h5 class="product-name">Sport Boots</h5>
-                <h4 class="product-price">159.000</h4>
-                <button class="view_detail-btn btn">Chi Tiết</button>
-                <button class="add_to_cart-btn btn">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </button>
+               <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg" alt="featured_1" class="img-fluid mb-3">
+               <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+               <h5 class="product-name">Sport Boots</h5>
+               <h4 class="product-price">159.000</h4>
+               <button class="view_detail-btn btn">Chi Tiết</button>
+               <button class="add_to_cart-btn btn">
+                  <i class="fa-solid fa-cart-shopping"></i>
+               </button>
             </div>
             <div class="product text-center col-lg-3 col-md-4 col-12">
-                <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg"
-                    alt="featured_1" class="img-fluid mb-3">
-                <div class="star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <h5 class="product-name">Sport Boots</h5>
-                <h4 class="product-price">159.000</h4>
-                <button class="view_detail-btn btn">Chi Tiết</button>
-                <button class="add_to_cart-btn btn">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </button>
+               <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg" alt="featured_1" class="img-fluid mb-3">
+               <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+               <h5 class="product-name">Sport Boots</h5>
+               <h4 class="product-price">159.000</h4>
+               <button class="view_detail-btn btn">Chi Tiết</button>
+               <button class="add_to_cart-btn btn">
+                  <i class="fa-solid fa-cart-shopping"></i>
+               </button>
             </div>
             <div class="product text-center col-lg-3 col-md-4 col-12">
-                <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg"
-                    alt="featured_1" class="img-fluid mb-3">
-                <div class="star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <h5 class="product-name">Sport Boots</h5>
-                <h4 class="product-price">159.000</h4>
-                <button class="view_detail-btn btn">Chi Tiết</button>
-                <button class="add_to_cart-btn btn">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </button>
+               <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg" alt="featured_1" class="img-fluid mb-3">
+               <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+               <h5 class="product-name">Sport Boots</h5>
+               <h4 class="product-price">159.000</h4>
+               <button class="view_detail-btn btn">Chi Tiết</button>
+               <button class="add_to_cart-btn btn">
+                  <i class="fa-solid fa-cart-shopping"></i>
+               </button>
             </div>
             <div class="product text-center col-lg-3 col-md-4 col-12">
-                <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg"
-                    alt="featured_1" class="img-fluid mb-3">
-                <div class="star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <h5 class="product-name">Sport Boots</h5>
-                <h4 class="product-price">159.000</h4>
-                <button class="view_detail-btn btn">Chi Tiết</button>
-                <button class="add_to_cart-btn btn">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </button>
+               <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg" alt="featured_1" class="img-fluid mb-3">
+               <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+               <h5 class="product-name">Sport Boots</h5>
+               <h4 class="product-price">159.000</h4>
+               <button class="view_detail-btn btn">Chi Tiết</button>
+               <button class="add_to_cart-btn btn">
+                  <i class="fa-solid fa-cart-shopping"></i>
+               </button>
             </div>
             <div class="product text-center col-lg-3 col-md-4 col-12">
-                <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg"
-                    alt="featured_1" class="img-fluid mb-3">
-                <div class="star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <h5 class="product-name">Sport Boots</h5>
-                <h4 class="product-price">159.000</h4>
-                <button class="view_detail-btn btn">Chi Tiết</button>
-                <button class="add_to_cart-btn btn">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </button>
+               <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg" alt="featured_1" class="img-fluid mb-3">
+               <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+               <h5 class="product-name">Sport Boots</h5>
+               <h4 class="product-price">159.000</h4>
+               <button class="view_detail-btn btn">Chi Tiết</button>
+               <button class="add_to_cart-btn btn">
+                  <i class="fa-solid fa-cart-shopping"></i>
+               </button>
             </div>
             <div class="product text-center col-lg-3 col-md-4 col-12">
-                <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg"
-                    alt="featured_1" class="img-fluid mb-3">
-                <div class="star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <h5 class="product-name">Sport Boots</h5>
-                <h4 class="product-price">159.000</h4>
-                <button class="view_detail-btn btn">Chi Tiết</button>
-                <button class="add_to_cart-btn btn">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </button>
+               <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg" alt="featured_1" class="img-fluid mb-3">
+               <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+               <h5 class="product-name">Sport Boots</h5>
+               <h4 class="product-price">159.000</h4>
+               <button class="view_detail-btn btn">Chi Tiết</button>
+               <button class="add_to_cart-btn btn">
+                  <i class="fa-solid fa-cart-shopping"></i>
+               </button>
             </div>
-        </div>
+         </div>
          <div class="btn-box">
             <a href="">
                View All products
@@ -488,28 +481,28 @@
 
    <!-- subscribe section -->
    <section class="subscribe_section">
-         <div class="container-fuild">
-            <div class="box">
-               <div class="row">
-                  <div class="col-md-6 offset-md-3">
-                     <div class="subscribe_form ">
-                        <div class="heading_container heading_center">
-                           <h3>Subscribe To Get Discount Offers</h3>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                        <form action="refresh">
-                           <input type="email" placeholder="Enter your email" required>
-                           <button>
-                           subscribe
-                           </button>
-                        </form>
+      <div class="container-fuild">
+         <div class="box">
+            <div class="row">
+               <div class="col-md-6 offset-md-3">
+                  <div class="subscribe_form ">
+                     <div class="heading_container heading_center">
+                        <h3>Subscribe To Get Discount Offers</h3>
                      </div>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                     <form action="refresh">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button>
+                           subscribe
+                        </button>
+                     </form>
                   </div>
                </div>
             </div>
          </div>
-      </section>
-      <!-- end subscribe section -->
+      </div>
+   </section>
+   <!-- end subscribe section -->
 
    @include('footer.footer')
 </body>
