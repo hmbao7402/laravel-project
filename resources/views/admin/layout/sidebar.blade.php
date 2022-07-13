@@ -19,9 +19,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{url('admin/update-admin-password')}}">Đổi mật khẩu</a>
                     </li>
-                    <li class="nav-item">
+                    <<!-- li class="nav-item">
                         <a class="nav-link" href="{{url('admin/update-admin-details')}}">Đổi TT Cá nhân</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </li>
