@@ -20,7 +20,7 @@
 
 <body>
    @include('header.header')
-
+   
    <section class="slider_section ">
       <div class="slider_bg_box">
          <img src="{{url('homePage\css/images/slider-bg.jpg')}}" alt="fail to display">
@@ -45,7 +45,7 @@
                               assumenda dolore incidunt alias velit quam vel. Dolor, ipsam?
                            </p>
                            <div class="btn-box">
-                              <a href="" class="btn1">
+                              <a href="{{url('product_list')}}" class="btn1">
                                  Mua Ngay!
                               </a>
                            </div>
@@ -337,7 +337,7 @@
                      Vitae fugiat laboriosam officia perferendis provident aliquid voluptatibus dolorem, fugit ullam sit
                      earum id eaque nisi hic? Tenetur commodi, nisi rem vel, ea eaque ab ipsa, autem similique ex unde!
                   </p>
-                  <a href="">
+                  <a href="{{url('product_list')}}">
                      Mua Ngay!
                   </a>
                </div>
@@ -352,7 +352,7 @@
       <div class="container">
          <div class="heading_container heading_center">
             <h2>
-               Our <span>products</span>
+               Sản Phẩm Mới
             </h2>
          </div>
          <div class="row mx-auto container-fluid">
@@ -374,8 +374,8 @@
             @endforeach
          </div>
          <div class="btn-box">
-            <a href="">
-               View All products
+            <a href="{{url('product_list')}}">
+               Hiển Thị Tất Cả Sản Phẩm
             </a>
          </div>
       </div>
