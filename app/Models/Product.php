@@ -14,6 +14,7 @@ class Product extends Model
         'price', 
         'status', 
         'avg_rating',
+        'img',
         'styleID', 
         'typeID', 
         'collectionID'

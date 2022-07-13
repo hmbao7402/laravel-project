@@ -7,8 +7,9 @@
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <title>Click Us - Giải pháp mua sắm thời trang tiện lợi</title>
    <script src="https://kit.fontawesome.com/4b2db38072.js" crossorigin="anonymous"></script>
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-   
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
    <!-- style -->
    <link rel="stylesheet" href="{{url('homePage\css/style.css')}}">
    <link rel="stylesheet" href="{{url('css/app.css')}}">
@@ -39,7 +40,9 @@
                               Giá Tốt
                            </h1>
                            <p>
-                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptates modi, laudantium perspiciatis placeat illum beatae dolor expedita, error, praesentium quis assumenda dolore incidunt alias velit quam vel. Dolor, ipsam?
+                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptates modi,
+                              laudantium perspiciatis placeat illum beatae dolor expedita, error, praesentium quis
+                              assumenda dolore incidunt alias velit quam vel. Dolor, ipsam?
                            </p>
                            <div class="btn-box">
                               <a href="" class="btn1">
@@ -68,7 +71,9 @@
             <div class="col-md-4">
                <div class="box ">
                   <div class="img-box">
-                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+                        style="enable-background:new 0 0 512 512;" xml:space="preserve">
                         <g>
                            <g>
                               <path d="M476.158,231.363l-13.259-53.035c3.625-0.77,6.345-3.986,6.345-7.839v-8.551c0-18.566-15.105-33.67-33.67-33.67h-60.392
@@ -93,13 +98,15 @@
                         </g>
                         <g>
                            <g>
-                              <path d="M144.835,350.597c-9.136,0-16.568,7.432-16.568,16.568c0,9.136,7.432,16.568,16.568,16.568
+                              <path
+                                 d="M144.835,350.597c-9.136,0-16.568,7.432-16.568,16.568c0,9.136,7.432,16.568,16.568,16.568
                                     c9.136,0,16.568-7.432,16.568-16.568C161.403,358.029,153.971,350.597,144.835,350.597z" />
                            </g>
                         </g>
                         <g>
                            <g>
-                              <path d="M427.023,350.597c-9.136,0-16.568,7.432-16.568,16.568c0,9.136,7.432,16.568,16.568,16.568
+                              <path
+                                 d="M427.023,350.597c-9.136,0-16.568,7.432-16.568,16.568c0,9.136,7.432,16.568,16.568,16.568
                                     c9.136,0,16.568-7.432,16.568-16.568C443.591,358.029,436.159,350.597,427.023,350.597z" />
                            </g>
                         </g>
@@ -167,7 +174,9 @@
             <div class="col-md-4">
                <div class="box ">
                   <div class="img-box">
-                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490.667 490.667" style="enable-background:new 0 0 490.667 490.667;" xml:space="preserve">
+                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490.667 490.667"
+                        style="enable-background:new 0 0 490.667 490.667;" xml:space="preserve">
                         <g>
                            <g>
                               <path d="M138.667,192H96c-5.888,0-10.667,4.779-10.667,10.667V288c0,5.888,4.779,10.667,10.667,10.667s10.667-4.779,10.667-10.667
@@ -197,7 +206,8 @@
                         </g>
                         <g>
                            <g>
-                              <path d="M376.405,354.923c-4.224-4.032-11.008-3.861-15.061,0.405c-30.613,32.235-71.808,50.005-116.011,50.005
+                              <path
+                                 d="M376.405,354.923c-4.224-4.032-11.008-3.861-15.061,0.405c-30.613,32.235-71.808,50.005-116.011,50.005
                                     s-85.397-17.771-115.989-50.005c-4.032-4.309-10.816-4.437-15.061-0.405c-4.309,4.053-4.459,10.816-0.405,15.083
                                     c34.667,36.544,81.344,56.661,131.456,56.661s96.789-20.117,131.477-56.661C380.864,365.739,380.693,358.976,376.405,354.923z" />
                            </g>
@@ -282,11 +292,15 @@
             <div class="col-md-4">
                <div class="box ">
                   <div class="img-box">
-                     <svg id="_30_Premium" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg" data-name="30_Premium">
+                     <svg id="_30_Premium" height="512" viewBox="0 0 512 512" width="512"
+                        xmlns="http://www.w3.org/2000/svg" data-name="30_Premium">
                         <g id="filled">
-                           <path d="m252.92 300h3.08a124.245 124.245 0 1 0 -4.49-.09c.075.009.15.023.226.03.394.039.789.06 1.184.06zm-96.92-124a100 100 0 1 1 100 100 100.113 100.113 0 0 1 -100-100z" />
-                           <path d="m447.445 387.635-80.4-80.4a171.682 171.682 0 0 0 60.955-131.235c0-94.841-77.159-172-172-172s-172 77.159-172 172c0 73.747 46.657 136.794 112 161.2v158.8c-.3 9.289 11.094 15.384 18.656 9.984l41.344-27.562 41.344 27.562c7.574 5.4 18.949-.7 18.656-9.984v-70.109l46.6 46.594c6.395 6.789 18.712 3.025 20.253-6.132l9.74-48.724 48.725-9.742c9.163-1.531 12.904-13.893 6.127-20.252zm-339.445-211.635c0-81.607 66.393-148 148-148s148 66.393 148 148-66.393 148-148 148-148-66.393-148-148zm154.656 278.016a12 12 0 0 0 -13.312 0l-29.344 19.562v-129.378a172.338 172.338 0 0 0 72 0v129.38zm117.381-58.353a12 12 0 0 0 -9.415 9.415l-6.913 34.58-47.709-47.709v-54.749a171.469 171.469 0 0 0 31.467-15.6l67.151 67.152z" />
-                           <path d="m287.62 236.985c8.349 4.694 19.251-3.212 17.367-12.618l-5.841-35.145 25.384-25c7.049-6.5 2.89-19.3-6.634-20.415l-35.23-5.306-15.933-31.867c-4.009-8.713-17.457-8.711-21.466 0l-15.933 31.866-35.23 5.306c-9.526 1.119-13.681 13.911-6.634 20.415l25.384 25-5.841 35.145c-1.879 9.406 9 17.31 17.367 12.618l31.62-16.414zm-53-32.359 2.928-17.615a12 12 0 0 0 -3.417-10.516l-12.721-12.531 17.658-2.66a12 12 0 0 0 8.947-6.5l7.985-15.971 7.985 15.972a12 12 0 0 0 8.947 6.5l17.658 2.66-12.723 12.535a12 12 0 0 0 -3.417 10.516l2.928 17.615-15.849-8.231a12 12 0 0 0 -11.058 0z" />
+                           <path
+                              d="m252.92 300h3.08a124.245 124.245 0 1 0 -4.49-.09c.075.009.15.023.226.03.394.039.789.06 1.184.06zm-96.92-124a100 100 0 1 1 100 100 100.113 100.113 0 0 1 -100-100z" />
+                           <path
+                              d="m447.445 387.635-80.4-80.4a171.682 171.682 0 0 0 60.955-131.235c0-94.841-77.159-172-172-172s-172 77.159-172 172c0 73.747 46.657 136.794 112 161.2v158.8c-.3 9.289 11.094 15.384 18.656 9.984l41.344-27.562 41.344 27.562c7.574 5.4 18.949-.7 18.656-9.984v-70.109l46.6 46.594c6.395 6.789 18.712 3.025 20.253-6.132l9.74-48.724 48.725-9.742c9.163-1.531 12.904-13.893 6.127-20.252zm-339.445-211.635c0-81.607 66.393-148 148-148s148 66.393 148 148-66.393 148-148 148-148-66.393-148-148zm154.656 278.016a12 12 0 0 0 -13.312 0l-29.344 19.562v-129.378a172.338 172.338 0 0 0 72 0v129.38zm117.381-58.353a12 12 0 0 0 -9.415 9.415l-6.913 34.58-47.709-47.709v-54.749a171.469 171.469 0 0 0 31.467-15.6l67.151 67.152z" />
+                           <path
+                              d="m287.62 236.985c8.349 4.694 19.251-3.212 17.367-12.618l-5.841-35.145 25.384-25c7.049-6.5 2.89-19.3-6.634-20.415l-35.23-5.306-15.933-31.867c-4.009-8.713-17.457-8.711-21.466 0l-15.933 31.866-35.23 5.306c-9.526 1.119-13.681 13.911-6.634 20.415l25.384 25-5.841 35.145c-1.879 9.406 9 17.31 17.367 12.618l31.62-16.414zm-53-32.359 2.928-17.615a12 12 0 0 0 -3.417-10.516l-12.721-12.531 17.658-2.66a12 12 0 0 0 8.947-6.5l7.985-15.971 7.985 15.972a12 12 0 0 0 8.947 6.5l17.658 2.66-12.723 12.535a12 12 0 0 0 -3.417 10.516l2.928 17.615-15.849-8.231a12 12 0 0 0 -11.058 0z" />
                         </g>
                      </svg>
                   </div>
@@ -320,7 +334,8 @@
                      </h2>
                   </div>
                   <p style="margin-top: 20px;margin-bottom: 30px;">
-                     Vitae fugiat laboriosam officia perferendis provident aliquid voluptatibus dolorem, fugit ullam sit earum id eaque nisi hic? Tenetur commodi, nisi rem vel, ea eaque ab ipsa, autem similique ex unde!
+                     Vitae fugiat laboriosam officia perferendis provident aliquid voluptatibus dolorem, fugit ullam sit
+                     earum id eaque nisi hic? Tenetur commodi, nisi rem vel, ea eaque ab ipsa, autem similique ex unde!
                   </p>
                   <a href="">
                      Shop Now
@@ -341,134 +356,22 @@
             </h2>
          </div>
          <div class="row mx-auto container-fluid">
+            @foreach ($products as $item => $product)
+            
             <div class="product text-center col-lg-3 col-md-4 col-12">
-               <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg" alt="featured_1" class="img-fluid mb-3">
-               <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-               </div>
-               <h5 class="product-name">Sport Boots</h5>
-               <h4 class="product-price">159.000</h4>
-               <button class="view_detail-btn btn">Chi Tiết</button>
+               <img src={{url('images/'. $product->img)}}
+               alt="featured_1" class="mb-3" style="width: 100%; height: auto;">
+            
+               <h5 class="product-name">{{$product->title}}</h5>
+               <h4 class="product-price">{{number_format($product->price)}}k/cái</h4>
+               <a href="{{url('product_details', $product->productID)}}">
+                  <button class="view_detail-btn btn">Chi Tiết</button>
+               </a>
                <button class="add_to_cart-btn btn">
                   <i class="fa-solid fa-cart-shopping"></i>
                </button>
             </div>
-            <div class="product text-center col-lg-3 col-md-4 col-12">
-               <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg" alt="featured_1" class="img-fluid mb-3">
-               <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-               </div>
-               <h5 class="product-name">Sport Boots</h5>
-               <h4 class="product-price">159.000</h4>
-               <button class="view_detail-btn btn">Chi Tiết</button>
-               <button class="add_to_cart-btn btn">
-                  <i class="fa-solid fa-cart-shopping"></i>
-               </button>
-            </div>
-            <div class="product text-center col-lg-3 col-md-4 col-12">
-               <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg" alt="featured_1" class="img-fluid mb-3">
-               <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-               </div>
-               <h5 class="product-name">Sport Boots</h5>
-               <h4 class="product-price">159.000</h4>
-               <button class="view_detail-btn btn">Chi Tiết</button>
-               <button class="add_to_cart-btn btn">
-                  <i class="fa-solid fa-cart-shopping"></i>
-               </button>
-            </div>
-            <div class="product text-center col-lg-3 col-md-4 col-12">
-               <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg" alt="featured_1" class="img-fluid mb-3">
-               <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-               </div>
-               <h5 class="product-name">Sport Boots</h5>
-               <h4 class="product-price">159.000</h4>
-               <button class="view_detail-btn btn">Chi Tiết</button>
-               <button class="add_to_cart-btn btn">
-                  <i class="fa-solid fa-cart-shopping"></i>
-               </button>
-            </div>
-            <div class="product text-center col-lg-3 col-md-4 col-12">
-               <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg" alt="featured_1" class="img-fluid mb-3">
-               <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-               </div>
-               <h5 class="product-name">Sport Boots</h5>
-               <h4 class="product-price">159.000</h4>
-               <button class="view_detail-btn btn">Chi Tiết</button>
-               <button class="add_to_cart-btn btn">
-                  <i class="fa-solid fa-cart-shopping"></i>
-               </button>
-            </div>
-            <div class="product text-center col-lg-3 col-md-4 col-12">
-               <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg" alt="featured_1" class="img-fluid mb-3">
-               <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-               </div>
-               <h5 class="product-name">Sport Boots</h5>
-               <h4 class="product-price">159.000</h4>
-               <button class="view_detail-btn btn">Chi Tiết</button>
-               <button class="add_to_cart-btn btn">
-                  <i class="fa-solid fa-cart-shopping"></i>
-               </button>
-            </div>
-            <div class="product text-center col-lg-3 col-md-4 col-12">
-               <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg" alt="featured_1" class="img-fluid mb-3">
-               <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-               </div>
-               <h5 class="product-name">Sport Boots</h5>
-               <h4 class="product-price">159.000</h4>
-               <button class="view_detail-btn btn">Chi Tiết</button>
-               <button class="add_to_cart-btn btn">
-                  <i class="fa-solid fa-cart-shopping"></i>
-               </button>
-            </div>
-            <div class="product text-center col-lg-3 col-md-4 col-12">
-               <img src="https://media.coolmate.me/cdn-cgi/image/quality=80/uploads/April2022/DSC05753_copy1.jpg" alt="featured_1" class="img-fluid mb-3">
-               <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-               </div>
-               <h5 class="product-name">Sport Boots</h5>
-               <h4 class="product-price">159.000</h4>
-               <button class="view_detail-btn btn">Chi Tiết</button>
-               <button class="add_to_cart-btn btn">
-                  <i class="fa-solid fa-cart-shopping"></i>
-               </button>
-            </div>
+            @endforeach
          </div>
          <div class="btn-box">
             <a href="">

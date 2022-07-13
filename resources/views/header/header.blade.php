@@ -9,13 +9,13 @@
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Trang chủ</a>
+                    <a class="nav-link" href="{{url('/')}}">Trang chủ</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Phong cách Gen Z</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sản phẩm</a>
+                    <a class="nav-link" href="{{url('product_list')}}">Sản phẩm</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Về Click Us</a>

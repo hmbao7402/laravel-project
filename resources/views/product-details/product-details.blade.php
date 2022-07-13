@@ -22,41 +22,18 @@
     <section class="container single-product my-3 py-5">
         <div class="row mt-5">
             <div class="col-lg-5 col-md-12 col-12">
-                <img src="{{url('product-details/images/shop/1.jpg')}}" alt="" class="img-fluid w-100 pb-1" id="main-img">
-                <div class="small-img-group">
-                    <div class="small-img-col">
-                        <img src="{{url('product-details/images/shop/1.jpg')}}" alt="" width="100%" class="small-img">
-                    </div>
-                    <div class="small-img-col">
-                        <img src="{{url('product-details/images/shop/24.jpg')}}" alt="" width="100%" class="small-img">
-                    </div>
-                    <div class="small-img-col">
-                        <img src="{{url('product-details/images/shop/25.jpg')}}" alt="" width="100%" class="small-img">
-                    </div>
-                    <div class="small-img-col">
-                        <img src="{{url('product-details/images/shop/26.jpg')}}" alt="" width="100%" class="small-img">
-                    </div>
-                </div>
+                <img src="{{url('images/'.$product->img)}}" alt="" class="img-fluid w-100 pb-1" id="main-img">
             </div>
     
             <div class="col-lg-6 col-md-12 col-12">
-                <h6>Home / T-Shirt</h6>
-                <h3 class="py-4">Men's Fashion T Shirt</h3>
-                <h2>$139.00</h2>
-                <select class="my-3">
-                    <option>Select Size</option>
-                    <option>XXL</option>
-                    <option>XL</option>
-                    <option>L</option>
-                    <option>M</option>
-                </select>
+                {{-- <h6>Home / T-Shirt</h6> --}}
+                <h3 class="py-4">{{$product->title}}</h3>
+                <h2>{{number_format($product->price)}}k/cái</h2>
                 <p class="warning">Maximum 5 products</p>
                 <input type="number" value="1" min="1" max="5">
                 <button class="buy-btn">Add To Cart</button>
-                <h4 class="mt-5 mb-5">Product Details</h4>
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nulla aperiam sapiente suscipit
-                    tempora inventore quae eligendi quasi incidunt temporibus aliquam beatae, at numquam voluptates
-                    corrupti esse vero? Expedita, molestiae.</span>
+                <h4 class="mt-5 mb-4">Mô tả sản phẩm</h4>
+                <span>{{$product->desc}}</span>
             </div>
         </div>
     </section>

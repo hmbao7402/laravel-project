@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProductList\ProductListController;
+use App\Models\Product;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,7 +16,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    $products = Product::latest()->get();
+    return view('index', compact('products'));
 });
 
 Route::get('/dashboard', function () {
@@ -60,8 +62,12 @@ Route::prefix('/admin')->namespace('App\Http\Controllers\Admin')->group(function
         Route::get('edit-collection/{id}', 'CollectionController@editCollection');
         Route::put('update-collection/{id}', 'CollectionController@updateCollection');
         Route::delete('delete-collection/{id}', 'CollectionController@deleteCollection');
+
+        // Product Management
+        Route::get('create-product', 'ProductController@createProduct');
+        Route::post('insert-product', 'ProductController@insertProduct');
     });
 });
 
 Route::get('/product_list',[ProductListController::class, 'viewProductList']);
-Route::get('/product_details', [ProductListController::class, 'viewProductDetail']);
+Route::get('/product_details/{id}', [ProductListController::class, 'viewProductDetail']);
