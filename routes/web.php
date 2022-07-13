@@ -71,3 +71,6 @@ Route::prefix('/admin')->namespace('App\Http\Controllers\Admin')->group(function
 
 Route::get('/product_list',[ProductListController::class, 'viewProductList']);
 Route::get('/product_details/{id}', [ProductListController::class, 'viewProductDetail']);
+
+/* regis */
+Route::get('/regis', [ProductListController::class, 'viewProductDetail']);

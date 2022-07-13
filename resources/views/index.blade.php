@@ -46,7 +46,7 @@
                            </p>
                            <div class="btn-box">
                               <a href="" class="btn1">
-                                 Shop Now!
+                                 Mua Ngay!
                               </a>
                            </div>
                         </div>
@@ -64,7 +64,7 @@
       <div class="container">
          <div class="heading_container heading_center">
             <h2>
-               Why Shop With Us
+               Tại Sao Nên Chọn Chúng Tôi
             </h2>
          </div>
          <div class="row">
@@ -163,7 +163,7 @@
                   </div>
                   <div class="detail-box">
                      <h5>
-                        Fast Delivery
+                        Giao Hàng Nhanh
                      </h5>
                      <p>
                         variations of passages of Lorem Ipsum available
@@ -281,7 +281,7 @@
                   </div>
                   <div class="detail-box">
                      <h5>
-                        Free Shiping
+                        Miễn Phí Giao
                      </h5>
                      <p>
                         variations of passages of Lorem Ipsum available
@@ -306,7 +306,7 @@
                   </div>
                   <div class="detail-box">
                      <h5>
-                        Best Quality
+                        Chất Lượng Tốt Nhất
                      </h5>
                      <p>
                         variations of passages of Lorem Ipsum available
@@ -330,7 +330,7 @@
                <div class="col-md-6 ml-auto">
                   <div class="heading_container remove_line_bt">
                      <h2>
-                        #NewArrivals
+                        #SảnPhẩmMới
                      </h2>
                   </div>
                   <p style="margin-top: 20px;margin-bottom: 30px;">
@@ -338,7 +338,7 @@
                      earum id eaque nisi hic? Tenetur commodi, nisi rem vel, ea eaque ab ipsa, autem similique ex unde!
                   </p>
                   <a href="">
-                     Shop Now
+                     Mua Ngay!
                   </a>
                </div>
             </div>

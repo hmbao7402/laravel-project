@@ -101,7 +101,7 @@
                             the period time a user is actively engaged with your website, page or app, etc
                         </p>
                         <div class="d-flex flex-wrap mb-5">
-                            <div class="mr-5 mt-3">
+                            <div class="mr-5 mt-3">    
                                 <p class="text-muted">Order value</p>
                                 <h3 class="text-primary fs-30 font-weight-medium">12.3k</h3>
                             </div>
