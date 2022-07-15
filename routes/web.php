@@ -70,6 +70,7 @@ Route::prefix('/admin')->namespace('App\Http\Controllers\Admin')->group(function
         Route::get('edit-product/{id}', 'ProductController@editProduct');
         Route::get('update-product/{id}', 'ProductController@updateProduct');
         Route::delete('delete-product/{id}', 'ProductController@deleteProduct');
+        Route::get('product-details/{id}', 'ProductController@viewProductDetails');
     });
 });
 

@@ -14,7 +14,7 @@ class ProductListController extends Controller
     }
 
     public function viewProductDetail($id) {
-        $product=  Product::where('productID', $id)->first();
+        $product = Product::where('productID', $id)->first();
         return view('product-details.product-details', compact('product'));
     }
 }

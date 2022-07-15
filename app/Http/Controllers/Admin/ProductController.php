@@ -27,7 +27,8 @@ class ProductController extends Controller
         ]);
     }
 
-    public function index() {
+    public function index()
+    {
         $products = Product::latest()->get();
         return view('admin.product.index', compact('products'));
     }
@@ -63,10 +64,11 @@ class ProductController extends Controller
         }
     }
 
-    public function deleteProduct(Request $request) {
+    public function deleteProduct(Request $request)
+    {
         try {
             $deleteProduct = DB::table('products')
-            ->where('productID', $request->id)
+                ->where('productID', $request->id)
                 ->delete();
             return redirect('admin/product')->with('success_message', 'Xóa thành công');
         } catch (\Exception $e) {
@@ -74,8 +76,10 @@ class ProductController extends Controller
         }
     }
 
-    public function viewProductDetails($id) {
-        $product =  Product::where('productID', $id)->first();
+    public function viewProductDetails($id)
+    {
+        $product = Product::where('productID', $id)->first();
+
         return view('admin.product.details', compact('product'));
     }
 }
