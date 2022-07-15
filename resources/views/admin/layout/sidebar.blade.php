@@ -35,7 +35,7 @@
             </a>
             <div class="collapse" id="form-elements">
                 <ul class="nav flex-column sub-menu list-unstyled">
-                    <li class="nav-item"><a class="nav-link" href="pages/forms/basic_elements.html">Danh sách sản
+                    <li class="nav-item"><a class="nav-link" href="{{url('admin/product')}}">Danh sách sản
                             phẩm</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{url('admin/create-product')}}">Thêm sản phẩm</a>
                     </li>

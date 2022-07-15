@@ -9,6 +9,7 @@ use App\Models\Style;
 use App\Models\Type;
 use COM;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Symfony\Component\Console\Input\Input;
 
 class ProductController extends Controller
@@ -26,9 +27,13 @@ class ProductController extends Controller
         ]);
     }
 
+    public function index() {
+        $products = Product::latest()->get();
+        return view('admin.product.index', compact('products'));
+    }
+
     public function insertProduct(Request $request)
     {
-
         $product = new Product();
         $product->title = $request->title;
         $product->desc = $request->desc;
@@ -58,8 +63,19 @@ class ProductController extends Controller
         }
     }
 
-    public function index() {
-        $products = Product::latest()->get();
-        return view('admin.product.index');
+    public function deleteProduct(Request $request) {
+        try {
+            $deleteProduct = DB::table('products')
+            ->where('productID', $request->id)
+                ->delete();
+            return redirect('admin/product')->with('success_message', 'Xóa thành công');
+        } catch (\Exception $e) {
+            return redirect('admin/product')->with('error_message', 'Xóa không thành công');
+        }
+    }
+
+    public function viewProductDetails($id) {
+        $product =  Product::where('productID', $id)->first();
+        return view('admin.product.details', compact('product'));
     }
 }
