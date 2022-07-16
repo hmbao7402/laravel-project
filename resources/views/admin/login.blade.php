@@ -29,7 +29,7 @@
                             <div class="brand-logo">
                                 <img src="{{url('admin/images/logo.png')}}" alt="logo">
                             </div>
-                            <h4>Hello! let's get started</h4>
+                            <h4>Hello!</h4>
                             <h6 class="font-weight-light">Sign in to continue.</h6>
 
                             {{-- ERROR MESSAGE --}}
