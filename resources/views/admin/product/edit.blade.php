@@ -46,66 +46,34 @@
                             @endforeach
                         </ul>
                         @endif
-                        <form class="forms-sample" action="{{url('admin/update-product')}}" method="post"
+                        <form class="forms-sample" action="{{url('admin/update-product', $product->productID)}}" method="post"
                             enctype="multipart/form-data">@csrf
+                            @method('PUT')
+                            <div class="form-group">
+                                <label for="id">Product ID</label>
+                                <input type="text" name="id" class="form-control"
+                                    placeholder="Ao Thun Mua He Nang Dong,..." value="{{$product->productID}}" readonly>
+                            </div>
                             <div class="form-group">
                                 <label for="title">Tiêu đề</label>
                                 <input type="text" name="title" class="form-control"
-                                    placeholder="Ao Thun Mua He Nang Dong,...">
+                                    placeholder="Ao Thun Mua He Nang Dong,..." value="{{$product->title}}">
                             </div>
                             <div class="form-group">
                                 <label for="desc">Description</label>
                                 <input type="text" name="desc" class="form-control"
-                                    placeholder="Ao Thun Mua He cho ngay dai nong buc,...">
+                                    placeholder="Ao Thun Mua He cho ngay dai nong buc,..." value="{{$product->desc}}">
                             </div>
                             <div class="form-group">
                                 <label for="price">Price</label>
-                                <input type="text" name="price" class="form-control"
-                                    placeholder="Ao Thun Mua He cho ngay dai nong buc,...">
-                            </div>
-                            <div class="form-group">
-                                <label for="status">Status</label>
-                                <input type="text" name="status" class="form-control"
-                                    placeholder="Ao Thun Mua He cho ngay dai nong buc,...">
+                                <input type="number" name="price" class="form-control"
+                                    placeholder="Ao Thun Mua He cho ngay dai nong buc,..." value="{{$product->price}}">
                             </div>
                             <div class="form-group">
                                 <label for="image">Image</label>
-                                <input type="file" name="image" id="image" class="form-control">
+                                <img src={{url('images/'.$product->img)}} alt="" style="width: 100%; height: auto;">
                             </div>
-                            <div class="form-group">
-                                <label for="style">Style</label>
-                                <input type="text" value="{{$product->styleID}}">
-                            </div>
-                            <div class="form-group">
-                                <label for="type">type</label>
-                                <select name="type" class="form-control">
-                                    <option>Choose type</option>
-                                    @foreach ($types as $item => $type)
-                                    <option value="{{$type->typeID}}" style="text-transform: capitalize">
-                                        {{$type->title}}</option>
-                                    @endforeach
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="collection">collection</label>
-                                <select name="collection" class="form-control">
-                                    <option>Choose collection</option>
-                                    @foreach ($collections as $item => $collection)
-                                    <option value="{{$collection->collectionID}}" style="text-transform: capitalize">
-                                        {{$collection->title}}</option>
-                                    @endforeach
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="gender">Gender</label>
-                                <select name="gender" class="form-control">
-                                    <option value="">Choose Gender</option>
-                                    <option value="male">Nam</option>
-                                    <option value="female">Nu</option>
-                                    <option value="unisex">Unisex</option>
-                                </select>
-                            </div>
-                            <button type="submit" class="btn btn-primary mr-2">Tạo</button>
+                            <button type="submit" class="btn btn-primary mr-2">Chinh Sua</button>
                             <button class="btn btn-light" type="reset">Hủy bỏ</button>
                         </form>
                     </div>

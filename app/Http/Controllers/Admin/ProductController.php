@@ -82,4 +82,25 @@ class ProductController extends Controller
 
         return view('admin.product.details', compact('product'));
     }
+
+    public function editProduct($id) {
+        $product = Product::where('productID', $id)->first();
+
+        return view('admin.product.edit', compact('product'));
+    }
+
+    public function updateProduct(Request $request) {
+        try {
+            $updatedProduct = DB::table('products')
+                ->where('productID', $request->id)
+                ->update([
+                    'title' => $request->title,
+                    'desc' => $request->desc,
+                    'price' => $request->price,
+                ]);
+            return redirect('admin/edit-product/' . $request->id)->with('success_message', 'Chinh sua thanh cong');
+        } catch (\PDOException $e) {
+            return redirect('admin/edit-style/' . $request->id)->with('error_message', 'Chinh sua khong thanh cong');
+        }
+    }
 }
