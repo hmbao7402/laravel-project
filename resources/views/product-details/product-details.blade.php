@@ -28,7 +28,7 @@
             <div class="col-lg-6 col-md-12 col-12">
                 {{-- <h6>Home / T-Shirt</h6> --}}
                 <h3 class="py-4">{{$product->title}}</h3>
-                <h2>{{number_format($product->price)}}k/cái</h2>
+                <h2>{{number_format($product->price)}}/cái</h2>
                 <p class="warning">Maximum 5 products</p>
                 <input type="number" value="1" min="1" max="5">
                 <button class="buy-btn">Add To Cart</button>

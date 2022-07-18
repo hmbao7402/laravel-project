@@ -363,7 +363,7 @@
                alt="featured_1" class="mb-3" style="width: 100%; height: auto;">
             
                <h5 class="product-name">{{$product->title}}</h5>
-               <h4 class="product-price">{{number_format($product->price)}}k/cái</h4>
+               <h4 class="product-price">{{number_format($product->price)}}/cái</h4>
                <a href="{{url('product_details', $product->productID)}}">
                   <button class="view_detail-btn btn">Chi Tiết</button>
                </a>
@@ -390,13 +390,13 @@
                <div class="col-md-6 offset-md-3">
                   <div class="subscribe_form ">
                      <div class="heading_container heading_center">
-                        <h3>Subscribe To Get Discount Offers</h3>
+                        <h3>Đăng ký để nhận ngay vô vàn khuyến mãi</h3>
                      </div>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                     <form action="refresh">
-                        <input type="email" placeholder="Enter your email" required>
+                     <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p> -->
+                     <form action="{{url('register')}}">
+                        <!-- <input type="email" placeholder="Enter your email" required> -->
                         <button>
-                           subscribe
+                           Đăng ký
                         </button>
                      </form>
                   </div>
