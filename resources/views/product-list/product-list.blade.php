@@ -32,7 +32,7 @@
                 alt="featured_1" class="mb-3" style="width: 100%; height: auto;">
 
                 <h5 class="product-name">{{$product->title}}</h5>
-                <h4 class="product-price">{{number_format($product->price)}}k/cái</h4>
+                <h4 class="product-price">{{number_format($product->price)}}/cái</h4>
                 <a href="{{url('product_details', $product->productID)}}">
                     <button class="view_detail-btn btn">Chi Tiết</button>
                 </a>

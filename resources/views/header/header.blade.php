@@ -25,8 +25,8 @@
                 </li>
                 <li class="nav-item">
                     <i class="fa-solid fa-magnifying-glass"></i>
-                    <a href="{{url('register')}}"><i class="fa-solid fa-user"></i></a>
                     <i class="fa-solid fa-cart-shopping"></i>
+                    <a href="{{url('register')}}"><i class="fa-solid fa-user"></i></a>
                 </li>
             </ul>
         </div>
