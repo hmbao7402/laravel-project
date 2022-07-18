@@ -8,7 +8,7 @@
             <div class="col-md-12 grid-margin">
                 <div class="row">
                     <div class="col-12 col-xl-8 mb-4 mb-xl-0">
-                        <h3 class="font-weight-bold">Tạo Thêm Collection Mới</h3>
+                        <h3 class="font-weight-bold">Tạo Thêm Product Mới</h3>
                     </div>
                 </div>
             </div>
@@ -17,7 +17,7 @@
             <div class="col-md-6 grid-margin stretch-card">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Tạo Thêm Collection Mới</h4>
+                        <h4 class="card-title">Tạo Thêm Product Mới</h4>
                         {{-- ERROR MESSAGE --}}
                         @if(Session::has('error_message'))
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
