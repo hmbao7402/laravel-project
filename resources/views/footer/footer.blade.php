@@ -8,7 +8,7 @@
                 tạo ra những sản phẩm và dịch vụ mới để nâng cao trải nghiệm khách hàng</p>
         </div>
         <div class="footer-one col-lg-3 col-md-6 col-12">
-            <h5>Sản phẩm</h5>
+            <h5><a href="{{url('product_list')}}">Sản phẩm</a></h5>
             <ul class=" text-capitalize list-unstyled">
                 <li><a href="#">Nam</a></li>
                 <li><a href="#">Nữ</a></li>
